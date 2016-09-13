@@ -1,0 +1,5 @@
+hello:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeHelloBundle:Hello:index, name:1 }
+    requirements:
+        name:  \d+

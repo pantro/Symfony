@@ -1,0 +1,13 @@
+{# src/Acme/ArticleBundle/Resources/views/Article/list.html.twig #}
+{% extends 'AcmeArticleBundle::layout.html.twig' %}
+ 
+{% block body %}
+    <h1>Recent Articles<h1>
+ 
+    {% for article in articles %}
+        {{ include(
+            'AcmeArticleBundle:Article:articleDetails.html.twig',
+            {'article': article}
+        ) }}
+    {% endfor %}
+{% endblock %}

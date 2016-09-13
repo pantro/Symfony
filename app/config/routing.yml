@@ -1,0 +1,20 @@
+acme_task:
+    resource: "@AcmeTaskBundle/Resources/config/routing.yml"
+    prefix:   /
+
+acme_store:
+    resource: "@AcmeStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+acme_article:
+    resource: "@AcmeArticleBundle/Resources/config/routing.yml"
+    prefix:   /
+
+acme_blog:
+    resource: "@AcmeBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+acme_hello:
+    resource: "@AcmeHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+
